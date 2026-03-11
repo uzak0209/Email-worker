@@ -1,0 +1,7 @@
+name = "email-to-r2-worker"
+main = "src/index.ts"
+compatibility_date = "2024-03-11"
+
+[[r2_buckets]]
+binding = "MY_BUCKET" # コード内で使う変数名
+bucket_name = "ruxel-emails" # 実際に作ったバケット名
